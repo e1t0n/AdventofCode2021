@@ -1,5 +1,4 @@
-import UIKit
-
+import Foundation
 
 let file = Bundle.main.url(forResource: "input", withExtension: "txt")!
 let content = try! String(contentsOf: file, encoding: .utf8)
